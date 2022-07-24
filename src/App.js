@@ -1,7 +1,11 @@
-import Catalogue from "./components/Catalogue";
+import Home from "./pages/Home";
 
 function App() {
-  return <Catalogue />;
+  return (
+    <>
+      <Home />
+    </>
+  );
 }
 
 export default App;
