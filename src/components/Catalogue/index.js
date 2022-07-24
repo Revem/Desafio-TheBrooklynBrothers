@@ -27,11 +27,11 @@ function Catalogue() {
   return (
     <>
       <div className="flex flex-col lg:flex-row lg:justify-evenly">
-        <div className="text-center lg:text-start">
-          <p className="text-4xl lg:border-b border-[#16b9cf] lg:w-52 lg:m-4">
-            <strong>Filtrar</strong>
+        <div className="text-center lg:text-start text-lg">
+          <p className="lg:text-3xl lg:border-b border-[#16b9cf] lg:w-52 lg:m-0 font-bold">
+            Filtrar
           </p>
-          <p className="text-4xl lg:border-b border-[#16b9cf] lg:w-52 lg:m-4">
+          <p className="lg:text-2xl lg:border-b border-[#16b9cf] lg:w-52 lg:m-0 ">
             Producto
           </p>
           <div className="m-5 p-5 border-b border-[#16b9cf]  lg:hidden">
@@ -148,7 +148,7 @@ function Catalogue() {
           </div>
         </div>
 
-        <div className="flex flex-wrap lg:w-7/12 lg:border-t border-[#16b9cf]">
+        <div className="flex flex-wrap lg:w-7/12 lg:border-t border-[#16b9cf] lg:mt-9">
           {FilteredList.map((element, index) => (
             <Item {...element} key={index} className="flex " />
           ))}

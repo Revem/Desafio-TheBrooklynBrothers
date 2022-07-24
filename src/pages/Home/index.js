@@ -10,7 +10,7 @@ function Home() {
       <img
         src={Nuestros}
         alt="Nuestros productos"
-        className="p-5 lg:p-10 h-32 object-contain"
+        className="p-5 lg:p-10 lg:ml-60 h-32 object-contain"
       />
       <Catalogue />
       <Footer />
